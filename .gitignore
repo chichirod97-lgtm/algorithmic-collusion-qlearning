@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+reproductions/
+.env
+*.lic
+.venv/

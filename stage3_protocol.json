@@ -1,0 +1,61 @@
+{
+  "created_utc": "2026-11-10T13:15:59.282979+00:00",
+  "purpose": "Descriptive stage-3 sensitivity after inspecting stages 1 and 2; not a preregistration of the full research.",
+  "scenarios": {
+    "baseline": {
+      "cost": 1.0,
+      "quality": 2.0,
+      "outside": 0.0,
+      "mu": 0.25,
+      "discount": 0.95,
+      "learning_rate": 0.15,
+      "beta": 4e-06,
+      "actions": 15,
+      "extension": 0.1,
+      "stable_periods": 100000
+    },
+    "slower_learning": {
+      "cost": 1.0,
+      "quality": 2.0,
+      "outside": 0.0,
+      "mu": 0.25,
+      "discount": 0.95,
+      "learning_rate": 0.1,
+      "beta": 4e-06,
+      "actions": 15,
+      "extension": 0.1,
+      "stable_periods": 100000
+    },
+    "faster_exploration_decay": {
+      "cost": 1.0,
+      "quality": 2.0,
+      "outside": 0.0,
+      "mu": 0.25,
+      "discount": 0.95,
+      "learning_rate": 0.15,
+      "beta": 8e-06,
+      "actions": 15,
+      "extension": 0.1,
+      "stable_periods": 100000
+    }
+  },
+  "seeds": [
+    10,
+    11,
+    12
+  ],
+  "max_steps": 3000000,
+  "workers": 3,
+  "source_sha256": {
+    "model.py": "3d909e2cb9128a2a38c7cc764936fdae13233cd7631bdbb55b4be82c55650791",
+    "analyze_strategies.py": "d1ee33e4d10abf75b7c921be16d702fe3da84c1a6b6f0d83b8101b613366a94b",
+    "run_robustness.py": "404f7c8a9cb37dd417202ffa297893e5475a936c533fe6e7aed6e3c8371e99c0"
+  },
+  "outcomes": [
+    "convergence",
+    "frozen-cycle price and normalized profit (converged sessions only for headline comparison)",
+    "on-cycle joint best response",
+    "value losses"
+  ],
+  "policy": "Include all nine sessions and failures. Do not tune or extend settings based on outcomes. Old capped sessions are not pooled with this common-cap comparison. No p-values or population claims from three sessions per setting."
+}

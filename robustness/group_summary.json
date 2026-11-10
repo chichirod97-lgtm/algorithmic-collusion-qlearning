@@ -1,0 +1,26 @@
+[
+  {
+    "scenario": "baseline",
+    "sessions": 3,
+    "converged": 3,
+    "joint_best_response_converged": 0,
+    "mean_price_converged": 1.7893646413216198,
+    "mean_profit_gain_converged": 0.8224529041140904
+  },
+  {
+    "scenario": "slower_learning",
+    "sessions": 3,
+    "converged": 3,
+    "joint_best_response_converged": 0,
+    "mean_price_converged": 1.8791297013204946,
+    "mean_profit_gain_converged": 0.9496974341537863
+  },
+  {
+    "scenario": "faster_exploration_decay",
+    "sessions": 3,
+    "converged": 3,
+    "joint_best_response_converged": 0,
+    "mean_price_converged": 1.8776228537905375,
+    "mean_profit_gain_converged": 0.9498585574756936
+  }
+]

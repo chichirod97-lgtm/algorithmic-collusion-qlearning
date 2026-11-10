@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "sessions": 9,
+  "protocol_sha256": "47610f7704e9b44bc010b990fbf5e500136b6dd6e38dd621d1f4a083d68bcf40",
+  "source_hashes_verified": true,
+  "policy_equals_argmax": true,
+  "cycle_prices_and_gains_recomputed": true,
+  "bellman_residuals_below_1e_9": true,
+  "output_hashes": {
+    "robustness\\baseline\\seed_10.json": "ab75703cf69623837dae2c8b5dc160807574fecdfc92a9ceb274a6799818f005",
+    "robustness\\baseline\\seed_10.npz": "12947e82f5bba4f05860929800f1acde65f5fb8cf8d3af3e5d30703105fba74f",
+    "robustness\\baseline\\seed_11.json": "2da1418b14cfe34cb2b87c81ed0ebb28f5b8d158ad567687e6aa0da1d5ba21ae",
+    "robustness\\baseline\\seed_11.npz": "2450376354e20c751f50a67f45494f01e35e63315ab5a384661c3dfad2892e10",
+    "robustness\\baseline\\seed_12.json": "75cff2ec400f76f8be370f0e74689946ebfc0efb4244673f7be68696851c8c00",
+    "robustness\\baseline\\seed_12.npz": "00b2f5fa8eec23347108eaaaba202c0ddbfebd6a5cebdea2ca84d7255280f446",
+    "robustness\\slower_learning\\seed_10.json": "142b111c5bcfd705ecbf44ac3b85fbb31f8849bafb4b6a3dd5e7b2c20c82edbd",
+    "robustness\\slower_learning\\seed_10.npz": "fc547a601bceee780a5b316d282e405de2f0fd16a6fdc58a8b8c7ed5d7b61148",
+    "robustness\\slower_learning\\seed_11.json": "b65d6a46deb218e7e60a8cc935331a6f7fb665ffd187df78226bb568bf8fcbe1",
+    "robustness\\slower_learning\\seed_11.npz": "396c886091ac148cefb8a846be0f607c41e7004ba8d849ceec2be43b28c204f4",
+    "robustness\\slower_learning\\seed_12.json": "07ebe8bc97ad5b05501784cc5b2c6553ace24a9a3484b2e5a40764ed38fdb535",
+    "robustness\\slower_learning\\seed_12.npz": "9fe68dcbaf17808e509467f7ab23b9184ee9ed0421a5c742a813ee6a019f043b",
+    "robustness\\faster_exploration_decay\\seed_10.json": "1d079dfa03e743b66be4b527e64b49903030368049e9be18263d15c7645ceae4",
+    "robustness\\faster_exploration_decay\\seed_10.npz": "ce82818494d66f7b8487b9076af0a3a316801fe6d719ff310119a1ea22e651b1",
+    "robustness\\faster_exploration_decay\\seed_11.json": "ef610b9ff7322b8cfbc3b96437187b094de79f12d45506b40c07908473d6cebe",
+    "robustness\\faster_exploration_decay\\seed_11.npz": "7f290add245c72ad2e3a399a2df4379a7acc8a7ba3d96c6b1e985ae087f97e70",
+    "robustness\\faster_exploration_decay\\seed_12.json": "c112805818740e6ee9fc5af3caaf7092c9647708eaa1d5d83ccfbcfa2692e1c5",
+    "robustness\\faster_exploration_decay\\seed_12.npz": "117d6f70fa60c1c284f70858fae3a88f99866110987cd01ce6805ed23bf453d0"
+  }
+}

@@ -1,0 +1,915 @@
+{
+  "config": {
+    "cost": 1.0,
+    "quality": 2.0,
+    "outside": 0.0,
+    "mu": 0.25,
+    "discount": 0.95,
+    "learning_rate": 0.15,
+    "beta": 8e-06,
+    "actions": 15,
+    "extension": 0.1,
+    "stable_periods": 100000
+  },
+  "seed": 10,
+  "steps": 964181,
+  "max_steps": 3000000,
+  "converged": true,
+  "stable_periods_observed": 100000,
+  "seconds": 42.319524199992884,
+  "reference": {
+    "nash_price": 1.4729266600306228,
+    "monopoly_price": 1.9249809190177616,
+    "nash_profit": 0.22292666003062275,
+    "monopoly_profit": 0.3374904595088809
+  },
+  "cycle_length": 1,
+  "frozen_mean_price": 1.931438837003292,
+  "frozen_profit_per_firm": 0.3374599784145508,
+  "profit_gain": 0.9997339378191982,
+  "history": [
+    {
+      "step": 10000,
+      "epsilon": 0.9231237313469467,
+      "firm1_price": 1.6923744626805393,
+      "firm2_price": 1.693935987249444,
+      "profit_per_firm": 0.27891284956816514
+    },
+    {
+      "step": 20000,
+      "epsilon": 0.8521506061437918,
+      "firm1_price": 1.6841018697410615,
+      "firm2_price": 1.685388287003785,
+      "profit_per_firm": 0.2776363708494091
+    },
+    {
+      "step": 30000,
+      "epsilon": 0.7866341541146141,
+      "firm1_price": 1.6759377698237454,
+      "firm2_price": 1.6772939326007055,
+      "profit_per_firm": 0.2759154524447851
+    },
+    {
+      "step": 40000,
+      "epsilon": 0.7261548462892243,
+      "firm1_price": 1.6676148051239805,
+      "firm2_price": 1.6701295183875522,
+      "profit_per_firm": 0.2746352054037416
+    },
+    {
+      "step": 50000,
+      "epsilon": 0.6703254086174579,
+      "firm1_price": 1.6636625593168337,
+      "firm2_price": 1.6631200942060456,
+      "profit_per_firm": 0.2735255203141665
+    },
+    {
+      "step": 60000,
+      "epsilon": 0.6187883420930764,
+      "firm1_price": 1.6561184195261311,
+      "firm2_price": 1.6580015484107091,
+      "profit_per_firm": 0.2721572536290568
+    },
+    {
+      "step": 70000,
+      "epsilon": 0.5712136335396044,
+      "firm1_price": 1.6515423388415744,
+      "firm2_price": 1.6539253105782377,
+      "profit_per_firm": 0.271583646857517
+    },
+    {
+      "step": 80000,
+      "epsilon": 0.5272966423993143,
+      "firm1_price": 1.6455016023579017,
+      "firm2_price": 1.643622348224116,
+      "profit_per_firm": 0.2691015072897615
+    },
+    {
+      "step": 90000,
+      "epsilon": 0.48675614999359545,
+      "firm1_price": 1.6393058758425814,
+      "firm2_price": 1.639480239628189,
+      "profit_per_firm": 0.26768843714355306
+    },
+    {
+      "step": 100000,
+      "epsilon": 0.44933255876331313,
+      "firm1_price": 1.6366749200552715,
+      "firm2_price": 1.6357914768748436,
+      "profit_per_firm": 0.2666213868785716
+    },
+    {
+      "step": 110000,
+      "epsilon": 0.4147862299581479,
+      "firm1_price": 1.6350513994737041,
+      "firm2_price": 1.6330752765701386,
+      "profit_per_firm": 0.26630431744765304
+    },
+    {
+      "step": 120000,
+      "epsilon": 0.38289594913045244,
+      "firm1_price": 1.6335596204190574,
+      "firm2_price": 1.6389726472745278,
+      "profit_per_firm": 0.2677522797372769
+    },
+    {
+      "step": 130000,
+      "epsilon": 0.3534575096075464,
+      "firm1_price": 1.635725606111404,
+      "firm2_price": 1.6336371154348819,
+      "profit_per_firm": 0.26726363436172534
+    },
+    {
+      "step": 140000,
+      "epsilon": 0.32628240487183746,
+      "firm1_price": 1.6389765220253172,
+      "firm2_price": 1.6366555463013157,
+      "profit_per_firm": 0.26839480410224903
+    },
+    {
+      "step": 150000,
+      "epsilon": 0.30119662147553566,
+      "firm1_price": 1.6361518286984524,
+      "firm2_price": 1.6341989542996276,
+      "profit_per_firm": 0.26744548296633713
+    },
+    {
+      "step": 160000,
+      "epsilon": 0.278039524760495,
+      "firm1_price": 1.6325831832196303,
+      "firm2_price": 1.6331760200907122,
+      "profit_per_firm": 0.26680380744767324
+    },
+    {
+      "step": 170000,
+      "epsilon": 0.2566628302479847,
+      "firm1_price": 1.634268699813863,
+      "firm2_price": 1.6346600496437873,
+      "profit_per_firm": 0.2671234012138389
+    },
+    {
+      "step": 180000,
+      "epsilon": 0.23692965411177294,
+      "firm1_price": 1.638771160233377,
+      "firm2_price": 1.6418360881093168,
+      "profit_per_firm": 0.2691759815207588
+    },
+    {
+      "step": 190000,
+      "epsilon": 0.21871363665430918,
+      "firm1_price": 1.6480318146246486,
+      "firm2_price": 1.643246497397362,
+      "profit_per_firm": 0.270545277668987
+    },
+    {
+      "step": 200000,
+      "epsilon": 0.2018981331732601,
+      "firm1_price": 1.6439284535366325,
+      "firm2_price": 1.6448545189757595,
+      "profit_per_firm": 0.2708806510846662
+    },
+    {
+      "step": 210000,
+      "epsilon": 0.18637546703718227,
+      "firm1_price": 1.6322693284055494,
+      "firm2_price": 1.6395112376345273,
+      "profit_per_firm": 0.26689691094932094
+    },
+    {
+      "step": 220000,
+      "epsilon": 0.17204624018746656,
+      "firm1_price": 1.6403094362975392,
+      "firm2_price": 1.6478342023342862,
+      "profit_per_firm": 0.27036901246420547
+    },
+    {
+      "step": 230000,
+      "epsilon": 0.15881869665141174,
+      "firm1_price": 1.6468616398856724,
+      "firm2_price": 1.6569747394510268,
+      "profit_per_firm": 0.2725495888732767
+    },
+    {
+      "step": 240000,
+      "epsilon": 0.14660813499073863,
+      "firm1_price": 1.652708638829781,
+      "firm2_price": 1.6429636405895955,
+      "profit_per_firm": 0.2719061415582306
+    },
+    {
+      "step": 250000,
+      "epsilon": 0.13533636592320933,
+      "firm1_price": 1.6513912235607364,
+      "firm2_price": 1.655893683980253,
+      "profit_per_firm": 0.2738702292028373
+    },
+    {
+      "step": 260000,
+      "epsilon": 0.12493121164427781,
+      "firm1_price": 1.6700907708796695,
+      "firm2_price": 1.6647707380431995,
+      "profit_per_firm": 0.27872531125890976
+    },
+    {
+      "step": 270000,
+      "epsilon": 0.11532604364272125,
+      "firm1_price": 1.6565562663655597,
+      "firm2_price": 1.633609992179346,
+      "profit_per_firm": 0.2716312003835533
+    },
+    {
+      "step": 280000,
+      "epsilon": 0.10645935605069454,
+      "firm1_price": 1.6581565384423769,
+      "firm2_price": 1.640282313042028,
+      "profit_per_firm": 0.2715254918650546
+    },
+    {
+      "step": 290000,
+      "epsilon": 0.09827437179619113,
+      "firm1_price": 1.6243222145325438,
+      "firm2_price": 1.6659951592932145,
+      "profit_per_firm": 0.26861506529310897
+    },
+    {
+      "step": 300000,
+      "epsilon": 0.09071867903594183,
+      "firm1_price": 1.617797134199973,
+      "firm2_price": 1.681222929903122,
+      "profit_per_firm": 0.2695076129839352
+    },
+    {
+      "step": 310000,
+      "epsilon": 0.08374389554068051,
+      "firm1_price": 1.622787813219176,
+      "firm2_price": 1.6742832512358512,
+      "profit_per_firm": 0.27064211289347256
+    },
+    {
+      "step": 320000,
+      "epsilon": 0.07730535888369706,
+      "firm1_price": 1.6329629087971886,
+      "firm2_price": 1.670954840306122,
+      "profit_per_firm": 0.2720625445460081
+    },
+    {
+      "step": 330000,
+      "epsilon": 0.07136184044882608,
+      "firm1_price": 1.6578465583790498,
+      "firm2_price": 1.6529062511201265,
+      "profit_per_firm": 0.27325296014184386
+    },
+    {
+      "step": 340000,
+      "epsilon": 0.06587528142654638,
+      "firm1_price": 1.7173394820290815,
+      "firm2_price": 1.7192458594184068,
+      "profit_per_firm": 0.2947480220708966
+    },
+    {
+      "step": 350000,
+      "epsilon": 0.06081054910766489,
+      "firm1_price": 1.7296573147946397,
+      "firm2_price": 1.7121434412178926,
+      "profit_per_firm": 0.2958427641263852
+    },
+    {
+      "step": 360000,
+      "epsilon": 0.05613521191403273,
+      "firm1_price": 1.6734656788189157,
+      "firm2_price": 1.5969587244442018,
+      "profit_per_firm": 0.26572644885050306
+    },
+    {
+      "step": 370000,
+      "epsilon": 0.05181933172572144,
+      "firm1_price": 1.6711098303377585,
+      "firm2_price": 1.5343892486659567,
+      "profit_per_firm": 0.25337994370860284
+    },
+    {
+      "step": 380000,
+      "epsilon": 0.04783527217484505,
+      "firm1_price": 1.6770885708087666,
+      "firm2_price": 1.5401161303355213,
+      "profit_per_firm": 0.2552245107465637
+    },
+    {
+      "step": 390000,
+      "epsilon": 0.044157521678453264,
+      "firm1_price": 1.6844467225614967,
+      "firm2_price": 1.5456725229702752,
+      "profit_per_firm": 0.2573223479100372
+    },
+    {
+      "step": 400000,
+      "epsilon": 0.04076253007730244,
+      "firm1_price": 1.6785609761094813,
+      "firm2_price": 1.5279339138476096,
+      "profit_per_firm": 0.25208364410745115
+    },
+    {
+      "step": 410000,
+      "epsilon": 0.03762855783443477,
+      "firm1_price": 1.6664252566310453,
+      "firm2_price": 1.5515853926778735,
+      "profit_per_firm": 0.2572524722902694
+    },
+    {
+      "step": 420000,
+      "epsilon": 0.03473553682792166,
+      "firm1_price": 1.6441493143317318,
+      "firm2_price": 1.595408824127702,
+      "profit_per_firm": 0.26396750044342304
+    },
+    {
+      "step": 430000,
+      "epsilon": 0.032064941846369474,
+      "firm1_price": 1.5854894621018678,
+      "firm2_price": 1.6591136018878634,
+      "profit_per_firm": 0.26131586179128247
+    },
+    {
+      "step": 440000,
+      "epsilon": 0.029599671964320534,
+      "firm1_price": 1.5473076678041746,
+      "firm2_price": 1.6685059978059948,
+      "profit_per_firm": 0.25670809538586853
+    },
+    {
+      "step": 450000,
+      "epsilon": 0.027323941037946504,
+      "firm1_price": 1.5434251675112902,
+      "firm2_price": 1.66804877721263,
+      "profit_per_firm": 0.2560535541884305
+    },
+    {
+      "step": 460000,
+      "epsilon": 0.025223176619833036,
+      "firm1_price": 1.5342420081358628,
+      "firm2_price": 1.6743801200056405,
+      "profit_per_firm": 0.25393543882786707
+    },
+    {
+      "step": 470000,
+      "epsilon": 0.023283926645565084,
+      "firm1_price": 1.5255935643696328,
+      "firm2_price": 1.6662431433438742,
+      "profit_per_firm": 0.25186819948195444
+    },
+    {
+      "step": 480000,
+      "epsilon": 0.021493773294588486,
+      "firm1_price": 1.579522345883345,
+      "firm2_price": 1.6441725628364934,
+      "profit_per_firm": 0.26142683051910254
+    },
+    {
+      "step": 490000,
+      "epsilon": 0.019841253473763164,
+      "firm1_price": 1.670145017390777,
+      "firm2_price": 1.7069938974162508,
+      "profit_per_firm": 0.28232234288087266
+    },
+    {
+      "step": 500000,
+      "epsilon": 0.018315785414431397,
+      "firm1_price": 1.8864374813132045,
+      "firm2_price": 1.9074967518639394,
+      "profit_per_firm": 0.32690870962437063
+    },
+    {
+      "step": 510000,
+      "epsilon": 0.016907600912971544,
+      "firm1_price": 1.8936173945295294,
+      "firm2_price": 1.9124719318801031,
+      "profit_per_firm": 0.3288914786988061
+    },
+    {
+      "step": 520000,
+      "epsilon": 0.015607682780945637,
+      "firm1_price": 1.8939661221007515,
+      "firm2_price": 1.9012429040868504,
+      "profit_per_firm": 0.32923234913937804
+    },
+    {
+      "step": 530000,
+      "epsilon": 0.014407707104308142,
+      "firm1_price": 1.6786655943806672,
+      "firm2_price": 1.7266698819344324,
+      "profit_per_firm": 0.2811029569814876
+    },
+    {
+      "step": 540000,
+      "epsilon": 0.013299989941937708,
+      "firm1_price": 1.7019257233812022,
+      "firm2_price": 1.7314629486634803,
+      "profit_per_firm": 0.2873820175980068
+    },
+    {
+      "step": 550000,
+      "epsilon": 0.01227743812218054,
+      "firm1_price": 1.8951169230857723,
+      "firm2_price": 1.8992861549372433,
+      "profit_per_firm": 0.32957281214986645
+    },
+    {
+      "step": 560000,
+      "epsilon": 0.011333503822335297,
+      "firm1_price": 1.9002509678842736,
+      "firm2_price": 1.904501569502359,
+      "profit_per_firm": 0.3306302309993558
+    },
+    {
+      "step": 570000,
+      "epsilon": 0.01046214264023314,
+      "firm1_price": 1.9065551874217603,
+      "firm2_price": 1.9092558887233153,
+      "profit_per_firm": 0.3320228687470447
+    },
+    {
+      "step": 580000,
+      "epsilon": 0.009657774889427847,
+      "firm1_price": 1.907543248873547,
+      "firm2_price": 1.9101199581497763,
+      "profit_per_firm": 0.3323009265460747
+    },
+    {
+      "step": 590000,
+      "epsilon": 0.008915249870153229,
+      "firm1_price": 1.9071635232959907,
+      "firm2_price": 1.9111971388697642,
+      "profit_per_firm": 0.3323596719472046
+    },
+    {
+      "step": 600000,
+      "epsilon": 0.008229812887259777,
+      "firm1_price": 1.9061832113457975,
+      "firm2_price": 1.9090853996885002,
+      "profit_per_firm": 0.33193271425669046
+    },
+    {
+      "step": 610000,
+      "epsilon": 0.007597074803932895,
+      "firm1_price": 1.9117008564726399,
+      "firm2_price": 1.9152540029482843,
+      "profit_per_firm": 0.33328781668473884
+    },
+    {
+      "step": 620000,
+      "epsilon": 0.007012983936232501,
+      "firm1_price": 1.9050750326194703,
+      "firm2_price": 1.9098409760928015,
+      "profit_per_firm": 0.3318956868526505
+    },
+    {
+      "step": 630000,
+      "epsilon": 0.006473800108483113,
+      "firm1_price": 1.9049936628528708,
+      "firm2_price": 1.9097208588182908,
+      "profit_per_firm": 0.331914672170482
+    },
+    {
+      "step": 640000,
+      "epsilon": 0.0059760707033803375,
+      "firm1_price": 1.9164474261920066,
+      "firm2_price": 1.918628910887523,
+      "profit_per_firm": 0.33426205333467424
+    },
+    {
+      "step": 650000,
+      "epsilon": 0.005516608553452669,
+      "firm1_price": 1.9143783092694489,
+      "firm2_price": 1.915796468059074,
+      "profit_per_firm": 0.33365666756325163
+    },
+    {
+      "step": 660000,
+      "epsilon": 0.005092471532308492,
+      "firm1_price": 1.9183576783321277,
+      "firm2_price": 1.9199618251597375,
+      "profit_per_firm": 0.3346772049913354
+    },
+    {
+      "step": 670000,
+      "epsilon": 0.004700943714982567,
+      "firm1_price": 1.9196789683519728,
+      "firm2_price": 1.9212521171732508,
+      "profit_per_firm": 0.3349283507730644
+    },
+    {
+      "step": 680000,
+      "epsilon": 0.0043395179867439255,
+      "firm1_price": 1.9199928231660721,
+      "firm2_price": 1.9218527035459076,
+      "profit_per_firm": 0.3349831531798992
+    },
+    {
+      "step": 690000,
+      "epsilon": 0.004005879989002145,
+      "firm1_price": 1.9193612387870813,
+      "firm2_price": 1.9209537613623153,
+      "profit_per_firm": 0.33487351173914137
+    },
+    {
+      "step": 700000,
+      "epsilon": 0.003697893299510997,
+      "firm1_price": 1.9217790832808708,
+      "firm2_price": 1.923797828443151,
+      "profit_per_firm": 0.33541807134097124
+    },
+    {
+      "step": 710000,
+      "epsilon": 0.0034135857519722126,
+      "firm1_price": 1.9152462534467056,
+      "firm2_price": 1.9172611238581947,
+      "profit_per_firm": 0.3339671732223724
+    },
+    {
+      "step": 720000,
+      "epsilon": 0.0031511368074380653,
+      "firm1_price": 1.9214148567064855,
+      "firm2_price": 1.9237242081781152,
+      "profit_per_firm": 0.3353632585456016
+    },
+    {
+      "step": 730000,
+      "epsilon": 0.0029088658966466745,
+      "firm1_price": 1.9258591958641345,
+      "firm2_price": 1.9262466709432668,
+      "profit_per_firm": 0.3362223601347282
+    },
+    {
+      "step": 740000,
+      "epsilon": 0.002685221658641163,
+      "firm1_price": 1.9213993577033246,
+      "firm2_price": 1.9230964985499217,
+      "profit_per_firm": 0.33532481060883546
+    },
+    {
+      "step": 750000,
+      "epsilon": 0.0024787720067630924,
+      "firm1_price": 1.925901818122836,
+      "firm2_price": 1.9266380207731884,
+      "profit_per_firm": 0.33628561552377206
+    },
+    {
+      "step": 760000,
+      "epsilon": 0.002288194958408615,
+      "firm1_price": 1.9230383772880508,
+      "firm2_price": 1.924309295547604,
+      "profit_per_firm": 0.33559707269889794
+    },
+    {
+      "step": 770000,
+      "epsilon": 0.002112270169826481,
+      "firm1_price": 1.9252663589930592,
+      "firm2_price": 1.92555696530241,
+      "profit_per_firm": 0.3360794210725485
+    },
+    {
+      "step": 780000,
+      "epsilon": 0.0019498711217516994,
+      "firm1_price": 1.927281229404548,
+      "firm2_price": 1.9278740662756213,
+      "profit_per_firm": 0.33656950659793844
+    },
+    {
+      "step": 790000,
+      "epsilon": 0.0017999579058362396,
+      "firm1_price": 1.9234917231306408,
+      "firm2_price": 1.9245999018569597,
+      "profit_per_firm": 0.3357603924606912
+    },
+    {
+      "step": 800000,
+      "epsilon": 0.0016615705656852896,
+      "firm1_price": 1.9269828735936183,
+      "firm2_price": 1.9276299569757689,
+      "profit_per_firm": 0.3364946449768462
+    },
+    {
+      "step": 810000,
+      "epsilon": 0.0015338229498589814,
+      "firm1_price": 1.9257778260975171,
+      "firm2_price": 1.9267852613032614,
+      "profit_per_firm": 0.3362686026752369
+    },
+    {
+      "step": 820000,
+      "epsilon": 0.001415897037477795,
+      "firm1_price": 1.9272889789061316,
+      "firm2_price": 1.9280096825533182,
+      "profit_per_firm": 0.33656633412906584
+    },
+    {
+      "step": 830000,
+      "epsilon": 0.0013070377000961634,
+      "firm1_price": 1.915846839819369,
+      "firm2_price": 1.9182298115560406,
+      "profit_per_firm": 0.3341081233344796
+    },
+    {
+      "step": 840000,
+      "epsilon": 0.0012065478663023617,
+      "firm1_price": 1.9282072948436766,
+      "firm2_price": 1.9289357479924456,
+      "profit_per_firm": 0.3368085921158984
+    },
+    {
+      "step": 850000,
+      "epsilon": 0.0011137840580816272,
+      "firm1_price": 1.9283622848753297,
+      "firm2_price": 1.9285250244085654,
+      "profit_per_firm": 0.33676173484140337
+    },
+    {
+      "step": 860000,
+      "epsilon": 0.0010281522703599923,
+      "firm1_price": 1.9277500742502987,
+      "firm2_price": 1.9285095254053977,
+      "profit_per_firm": 0.3366826512352594
+    },
+    {
+      "step": 870000,
+      "epsilon": 0.0009491041673438405,
+      "firm1_price": 1.9183925510892677,
+      "firm2_price": 1.9199230776518457,
+      "profit_per_firm": 0.3346134252694287
+    },
+    {
+      "step": 880000,
+      "epsilon": 0.000876133571298776,
+      "firm1_price": 1.928827254970288,
+      "firm2_price": 1.9291372350335936,
+      "profit_per_firm": 0.3368971360405298
+    },
+    {
+      "step": 890000,
+      "epsilon": 0.0008087732212840011,
+      "firm1_price": 1.930098173229842,
+      "firm2_price": 1.9303849047883996,
+      "profit_per_firm": 0.337180787283641
+    },
+    {
+      "step": 900000,
+      "epsilon": 0.0007465917810870372,
+      "firm1_price": 1.9301640439932948,
+      "firm2_price": 1.930435276548687,
+      "profit_per_firm": 0.33718780010299176
+    },
+    {
+      "step": 910000,
+      "epsilon": 0.0006891910771993567,
+      "firm1_price": 1.929474338352438,
+      "firm2_price": 1.929985805456893,
+      "profit_per_firm": 0.33705962921988475
+    },
+    {
+      "step": 920000,
+      "epsilon": 0.00063620354914654,
+      "firm1_price": 1.9293503463271169,
+      "firm2_price": 1.9295479586174744,
+      "profit_per_firm": 0.3369989739396299
+    },
+    {
+      "step": 930000,
+      "epsilon": 0.0005872898958463649,
+      "firm1_price": 1.929780443664953,
+      "firm2_price": 1.9301795429964594,
+      "profit_per_firm": 0.33713680001981
+    },
+    {
+      "step": 940000,
+      "epsilon": 0.0005421369029234843,
+      "firm1_price": 1.931214101457742,
+      "firm2_price": 1.9312296004609073,
+      "profit_per_firm": 0.33740948367196716
+    },
+    {
+      "step": 950000,
+      "epsilon": 0.000500455437068093,
+      "firm1_price": 1.9307103838548698,
+      "firm2_price": 1.9309002466436447,
+      "profit_per_firm": 0.3373214072249591
+    },
+    {
+      "step": 960000,
+      "epsilon": 0.0004619785945956249,
+      "firm1_price": 1.9304430260502683,
+      "firm2_price": 1.9304817735581823,
+      "profit_per_firm": 0.3372374034079291
+    },
+    {
+      "step": 964181,
+      "epsilon": 0.00044678190084228547,
+      "firm1_price": 1.9308642506624807,
+      "firm2_price": 1.930817913054357,
+      "profit_per_firm": 0.3373199622183978
+    }
+  ],
+  "deviation": [
+    {
+      "period": 0,
+      "firm1_price": 1.931438837003292,
+      "firm2_price": 1.931438837003292,
+      "forced_deviation": false
+    },
+    {
+      "period": 1,
+      "firm1_price": 1.931438837003292,
+      "firm2_price": 1.931438837003292,
+      "forced_deviation": false
+    },
+    {
+      "period": 2,
+      "firm1_price": 1.931438837003292,
+      "firm2_price": 1.931438837003292,
+      "forced_deviation": false
+    },
+    {
+      "period": 3,
+      "firm1_price": 1.931438837003292,
+      "firm2_price": 1.931438837003292,
+      "forced_deviation": false
+    },
+    {
+      "period": 4,
+      "firm1_price": 1.931438837003292,
+      "firm2_price": 1.931438837003292,
+      "forced_deviation": false
+    },
+    {
+      "period": 5,
+      "firm1_price": 1.6602062816110088,
+      "firm2_price": 1.931438837003292,
+      "forced_deviation": true
+    },
+    {
+      "period": 6,
+      "firm1_price": 1.5052162499582755,
+      "firm2_price": 1.4664687420450924,
+      "forced_deviation": false
+    },
+    {
+      "period": 7,
+      "firm1_price": 1.543963757871459,
+      "firm2_price": 1.4664687420450924,
+      "forced_deviation": false
+    },
+    {
+      "period": 8,
+      "firm1_price": 1.5827112657846423,
+      "firm2_price": 1.427721234131909,
+      "forced_deviation": false
+    },
+    {
+      "period": 9,
+      "firm1_price": 1.543963757871459,
+      "firm2_price": 1.776448805350559,
+      "forced_deviation": false
+    },
+    {
+      "period": 10,
+      "firm1_price": 1.6602062816110088,
+      "firm2_price": 1.6602062816110088,
+      "forced_deviation": false
+    },
+    {
+      "period": 11,
+      "firm1_price": 1.931438837003292,
+      "firm2_price": 1.931438837003292,
+      "forced_deviation": false
+    },
+    {
+      "period": 12,
+      "firm1_price": 1.931438837003292,
+      "firm2_price": 1.931438837003292,
+      "forced_deviation": false
+    },
+    {
+      "period": 13,
+      "firm1_price": 1.931438837003292,
+      "firm2_price": 1.931438837003292,
+      "forced_deviation": false
+    },
+    {
+      "period": 14,
+      "firm1_price": 1.931438837003292,
+      "firm2_price": 1.931438837003292,
+      "forced_deviation": false
+    },
+    {
+      "period": 15,
+      "firm1_price": 1.931438837003292,
+      "firm2_price": 1.931438837003292,
+      "forced_deviation": false
+    },
+    {
+      "period": 16,
+      "firm1_price": 1.931438837003292,
+      "firm2_price": 1.931438837003292,
+      "forced_deviation": false
+    },
+    {
+      "period": 17,
+      "firm1_price": 1.931438837003292,
+      "firm2_price": 1.931438837003292,
+      "forced_deviation": false
+    },
+    {
+      "period": 18,
+      "firm1_price": 1.931438837003292,
+      "firm2_price": 1.931438837003292,
+      "forced_deviation": false
+    },
+    {
+      "period": 19,
+      "firm1_price": 1.931438837003292,
+      "firm2_price": 1.931438837003292,
+      "forced_deviation": false
+    },
+    {
+      "period": 20,
+      "firm1_price": 1.931438837003292,
+      "firm2_price": 1.931438837003292,
+      "forced_deviation": false
+    },
+    {
+      "period": 21,
+      "firm1_price": 1.931438837003292,
+      "firm2_price": 1.931438837003292,
+      "forced_deviation": false
+    },
+    {
+      "period": 22,
+      "firm1_price": 1.931438837003292,
+      "firm2_price": 1.931438837003292,
+      "forced_deviation": false
+    },
+    {
+      "period": 23,
+      "firm1_price": 1.931438837003292,
+      "firm2_price": 1.931438837003292,
+      "forced_deviation": false
+    },
+    {
+      "period": 24,
+      "firm1_price": 1.931438837003292,
+      "firm2_price": 1.931438837003292,
+      "forced_deviation": false
+    },
+    {
+      "period": 25,
+      "firm1_price": 1.931438837003292,
+      "firm2_price": 1.931438837003292,
+      "forced_deviation": false
+    },
+    {
+      "period": 26,
+      "firm1_price": 1.931438837003292,
+      "firm2_price": 1.931438837003292,
+      "forced_deviation": false
+    },
+    {
+      "period": 27,
+      "firm1_price": 1.931438837003292,
+      "firm2_price": 1.931438837003292,
+      "forced_deviation": false
+    },
+    {
+      "period": 28,
+      "firm1_price": 1.931438837003292,
+      "firm2_price": 1.931438837003292,
+      "forced_deviation": false
+    },
+    {
+      "period": 29,
+      "firm1_price": 1.931438837003292,
+      "firm2_price": 1.931438837003292,
+      "forced_deviation": false
+    }
+  ],
+  "scenario": "faster_exploration_decay",
+  "protocol_sha256": "47610f7704e9b44bc010b990fbf5e500136b6dd6e38dd621d1f4a083d68bcf40",
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5"
+  },
+  "strategy_checks": [
+    {
+      "player": 1,
+      "on_cycle_best_response": false,
+      "max_percent_value_loss_on_cycle": 12.411744596216895,
+      "best_response_bellman_residual": 9.404921286204626e-12
+    },
+    {
+      "player": 2,
+      "on_cycle_best_response": false,
+      "max_percent_value_loss_on_cycle": 3.9714361934878815,
+      "best_response_bellman_residual": 9.141132295553689e-12
+    }
+  ],
+  "joint_on_cycle_best_response": false,
+  "worker_seconds": 42.45164260000456
+}

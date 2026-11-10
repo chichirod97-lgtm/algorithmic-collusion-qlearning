@@ -1,0 +1,7 @@
+seed,training_converged,player,max_percent_value_loss_on_cycle,max_percent_value_loss_all_states,on_cycle_best_response,all_states_best_response
+0,False,1,8.433373970489281,14.024618564062328,False,False
+0,False,2,9.219136889514738,16.395863029969437,False,False
+1,True,1,11.999403437958131,21.34684774897449,False,False
+1,True,2,18.006238341113672,22.22383386988727,False,False
+2,True,1,9.060893659552246,18.386927304468696,False,False
+2,True,2,15.375922593956915,24.316505590360862,False,False
