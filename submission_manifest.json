@@ -8,7 +8,7 @@
   "make_notebook.py": "98d110fd8127eac64d2d7ebcd93742abd933cb2ccf890f2d5da32f0a8b764dbb",
   "model.py": "3d909e2cb9128a2a38c7cc764936fdae13233cd7631bdbb55b4be82c55650791",
   "plot_diagnostics.py": "2c7d5269a4f10060c2f21351292bab4eef71c34cb60a5676a8051116e338dc88",
-  "README.md": "8a6de573a1206ae6bd6093994c91947c9f44bcb6f0be317b1de4fda8de8b8de8",
+  "README.md": "0a09ddeba1b1f54529153c9bee11b58f2d2ad8f39dc46c1e4e1c54e28b4df343",
   "reproduce_stage3.py": "e613583e61502471228d0bb83b4d858fed5666a32d2326c32c8012da22d220c5",
   "requirements.txt": "6b8269444f689e47d7069d07d58374c6f45c2c41d505446a8cd896c504b541a0",
   "run_experiment.py": "a63da19724ceee9baa34d6f038b6f393a20e2e9c3e647929e3a4f01914a4377a",
@@ -54,5 +54,6 @@
   "robustness/slower_learning/seed_11.json": "b65d6a46deb218e7e60a8cc935331a6f7fb665ffd187df78226bb568bf8fcbe1",
   "robustness/slower_learning/seed_11.npz": "396c886091ac148cefb8a846be0f607c41e7004ba8d849ceec2be43b28c204f4",
   "robustness/slower_learning/seed_12.json": "07ebe8bc97ad5b05501784cc5b2c6553ace24a9a3484b2e5a40764ed38fdb535",
-  "robustness/slower_learning/seed_12.npz": "9fe68dcbaf17808e509467f7ab23b9184ee9ed0421a5c742a813ee6a019f043b"
+  "robustness/slower_learning/seed_12.npz": "9fe68dcbaf17808e509467f7ab23b9184ee9ed0421a5c742a813ee6a019f043b",
+  ".gitattributes": "f675b542646704acc46a8e1020ea2ec098a88e3aa01b6676993a6bd19184ad67"
 }

@@ -64,3 +64,7 @@ Open `index.html` for the Chinese–English report. It includes the research que
 The complete project includes 12 recorded sessions and five figures. `submission_manifest.json` records file SHA-256 hashes. After rebuilding any report sections, run `python finalize_submission.py` to finalize the report and refresh the submission archive and manifest. This does not retrain models.
 
 For GitHub Pages, publish branch `main` from `/ (root)` in repository Settings → Pages. The repository itself contains the files even without Pages. The article PDF is excluded from redistribution.
+
+## Windows line endings
+
+`.gitattributes` disables automatic line-ending conversion so source and protocol hashes remain valid on Windows. If an earlier checkout converted files to CRLF, make a fresh clone after this update before running hash-based audits. The repository files and recorded numerical results are unchanged.
